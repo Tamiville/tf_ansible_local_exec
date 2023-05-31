@@ -8,7 +8,7 @@ Running an ansible-playbook to install nginx means we have to feed ansible with 
 
 
 #########################################################################################################################################
-#################### In Ansible-Role #################### In Ansible-Role ################### In Ansible-Role ###########################
+#################### In Ansible-Role ###################################
 
 I started by creating a new directory called ansible-role. We use this command (ansible-galaxy init docker) which automatically creates a docker directory with sub-directories in it. Repeated same command for nginx.
 
