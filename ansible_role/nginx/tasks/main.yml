@@ -1,0 +1,19 @@
+---
+# tasks file for nginx
+  - name: update package
+    apt:  update_cache=yes state=latest
+    
+  - name: install "{{ install_name }}"
+    apt:  name="{{ app_name }}" state=latest
+
+
+  - name: copy default html file for site
+    copy:
+      src: default_site.html
+      dest: /var/www/html/index.html
+
+
+    # - name: copy index.html file
+    # copy:
+    #   src="{{ src_file_path }}"
+    #   dest="{{ dest_file_path }}"

@@ -1,0 +1,6 @@
+---
+# vars file for nginx
+app_name: nginx
+install_name: nginx
+# src_file_path: /mnt/c/Users/apple/Documents/GithubDev/tf_ansible_local_exec/ansible_role/default_site.html
+# dest_file_path: /var/www/html/index.html

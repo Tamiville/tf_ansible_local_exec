@@ -1,0 +1,2 @@
+ansible-playbook main.yml -i inventory.yml -u adminuser --private-key /home/devopslab/.ssh/ansiblekeylocalexec -vvv
+sudo systemctl status docker -l
